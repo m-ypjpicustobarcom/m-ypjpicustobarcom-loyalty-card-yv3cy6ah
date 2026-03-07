@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="fi"><head> 
+
+    <meta charset="utf-8"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+
+    <title>NoHo Staff</title> 
+
+    <link rel="shortcut icon" type="image/png" href="https://m-ypjpi.custobar.com/media/fu/da/tgznlzdkkoqkfs7qnbmowgxcg7xk.png"> 
+
+    <link rel="apple-touch-icon" href="https://m-ypjpi.custobar.com/media/fu/da/tgznlzdkkoqkfs7qnbmowgxcg7xk.png"> 
+
+    <style> 
+
+        html { font-size: 16px; } 
+
+        *, body { 
+
+            border: 0; 
+
+            color: #ffffff; 
+
+            font-size: 1rem; 
+
+            line-height: 1.5rem; 
+
+            font-family: arial, sans-serif; 
+
+            margin: 0; 
+
+            outline: none; 
+
+            padding: 0; 
+
+        } 
+
+        
+
+        ol, ul {
+
+            padding-left: 1.5rem;
+
+            margin-bottom: 1.5rem;
+
+        }
+
+        li {
+
+            margin-bottom: 0.5rem;
+
+            display: list-item;
+
+        }
+
+
+
+        a {text-decoration: none;} 
+
+        body { background-color: #ffffff; } 
+
+        
+
+        #live-pvm-kello {
+
+            text-align: right; 
+
+            padding: 5px 0;
+
+            font-size: 0.75rem;
+
+            letter-spacing: 1px;
+
+            margin-bottom: 10px;
+
+        }
+
+
+
+        #container { width: 100%; max-width: 600px; margin: 0 auto; background-color: #1F828E; position: relative; } 
+
+        .background { padding: 5px 30px 20px 30px; max-width: 500px; margin: 0 auto; } 
+
+        .logo { padding: 10px 0 30px 0; width: 100%; } 
+
+        
+
+        h1 { font-size: 24px; line-height: 32px; font-weight: bold; margin-bottom: 1rem; } 
+
+        p { font-size: 19px; line-height: 28px; margin-bottom: 1rem; } 
+
+        
+
+        .barcode { padding: 1rem 0 0 0; text-align: center; background-color: #ffffff; } 
+
+        .customer-id { padding: 15px; letter-spacing: 1px; text-align: center; color: #333333; margin-bottom: 0; } 
+
+        
+
+        .information { max-width: 562px; margin: 0 auto; padding: 2rem 0; } 
+
+    </style> 
+
+<style type="text/css"></style></head> 
+
+<body> 
+
+ 
+
+    <div id="container"> 
+
+        <div class="background"> 
+
+            <div class="logo"> 
+
+                <img src="https://m-ypjpi.custobar.com/media/a2/eo/g77k75rdxa4rtz75f6q5qqbcv5gh.gif" style="width: 80%; max-width: 350px; height: auto;"> 
+
+            </div> 
+
+                 
+
+ 
+
+            <div class="content"> 
+
+                <h1>NOHO STAFF 2026</h1> 
+
+                <p> 
+
+                    Michele Argento <br> 
+
+                    Madonna                      
+
+                </p> 
+
+                <p style="font-size: 16px; opacity: 0.8; margin-bottom: 0.5rem;"> 
+
+                    Voimassa: 2026-09-15
+
+                </p> 
+
+            </div> 
+
+                 
+
+            <p style="margin-bottom: 2rem;"> 
+
+                <a href="https://drive.google.com/file/d/1a7efveWR-_SqSiEzaetwWtNXEUsC2SZ-/view" target="_blank"><b>KATSO EDUT »</b></a> 
+
+            </p> 
+
+                  
+
+ 
+
+            <div class="barcode"> 
+
+                <img src="https://m-ypjpi.custobar.com/loyalty-card/yv3cy6ah/barcode.png" style="width: 80%; max-width: 400px; height: auto;"> 
+
+                <p class="customer-id">cb-pyr4u3uhkdm7w</p> 
+
+            </div> 
+
+            
+
+            <div id="live-pvm-kello">
+
+                <span id="pvm">7.3.2026</span> &nbsp; <span id="kello">11:49:40</span>
+
+            </div>
+
+            
+
+            <div class="information"> 
+
+                <h2>Lisää kortti puhelimesi aloitusnäyttöön</h2> 
+
+                <p class="small" style="font-size: 14px; margin-bottom: 1rem;">Ohjeet kortin tallentamiseen löytyvät alta.</p>
+
+                
+
+                <h3>iPhone / iPad</h3> 
+
+                <ol> 
+
+                    <li>Paina selaimessa Jaa-symbolia. </li> 
+
+                    <li>Valitse "Lisää koti-valikkoon".</li> 
+
+                </ol> 
+
+                
+
+                <h3>Android</h3> 
+
+                <ol> 
+
+                    <li>Paina selaimessa asetukset-painiketta. </li> 
+
+                    <li>Valitse "Kiinnitä aloitusruutuun" tai "Lisää pikanäppäin".</li> 
+
+                </ol>                      
+
+            </div> 
+
+        </div> 
+
+    </div> 
+
+
+
+    <script>
+
+        function paivitaAika() {
+
+            const nyt = new Date();
+
+            const tunnit = String(nyt.getHours()).padStart(2, '0');
+
+            const minuutit = String(nyt.getMinutes()).padStart(2, '0');
+
+            const sekunnit = String(nyt.getSeconds()).padStart(2, '0');
+
+            document.getElementById('kello').textContent = tunnit + ':' + minuutit + ':' + sekunnit;
+
+
+
+            const paiva = nyt.getDate();
+
+            const kuukausi = nyt.getMonth() + 1;
+
+            const vuosi = nyt.getFullYear();
+
+            document.getElementById('pvm').textContent = paiva + '.' + kuukausi + '.' + vuosi;
+
+        }
+
+        setInterval(paivitaAika, 1000);
+
+        paivitaAika();
+
+    </script>
+
+ 
+
+</body></html>
